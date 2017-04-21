@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043991CE1C4CA9520013C2F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043991CD1C4CA9520013C2F9 /* main.m */; };
+		043991D11C4CA9520013C2F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043991D01C4CA9520013C2F9 /* AppDelegate.m */; };
+		043991D41C4CA9520013C2F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043991D31C4CA9520013C2F9 /* ViewController.m */; };
+		043991D71C4CA9520013C2F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043991D51C4CA9520013C2F9 /* Main.storyboard */; };
+		043991D91C4CA9530013C2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043991D81C4CA9530013C2F9 /* Assets.xcassets */; };
+		043991DC1C4CA9530013C2F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043991DA1C4CA9530013C2F9 /* LaunchScreen.storyboard */; };
+		043991E71C4CA9530013C2F9 /* PitchShiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043991E61C4CA9530013C2F9 /* PitchShiftTests.m */; };
+		043991F21C4CA9530013C2F9 /* PitchShiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043991F11C4CA9530013C2F9 /* PitchShiftUITests.m */; };
+		0439920F1C4CB53F0013C2F9 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992021C4CB53F0013C2F9 /* bg1.png */; };
+		043992101C4CB53F0013C2F9 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992031C4CB53F0013C2F9 /* bg2.png */; };
+		043992111C4CB53F0013C2F9 /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992041C4CB53F0013C2F9 /* bg3.png */; };
+		043992121C4CB53F0013C2F9 /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992051C4CB53F0013C2F9 /* bg4.png */; };
+		043992131C4CB53F0013C2F9 /* bg5.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992061C4CB53F0013C2F9 /* bg5.png */; };
+		043992141C4CB53F0013C2F9 /* bg6.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992071C4CB53F0013C2F9 /* bg6.png */; };
+		043992151C4CB53F0013C2F9 /* bg7.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992081C4CB53F0013C2F9 /* bg7.png */; };
+		043992161C4CB53F0013C2F9 /* bg8.png in Resources */ = {isa = PBXBuildFile; fileRef = 043992091C4CB53F0013C2F9 /* bg8.png */; };
+		043992171C4CB53F0013C2F9 /* bg9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0439920A1C4CB53F0013C2F9 /* bg9.png */; };
+		043992181C4CB53F0013C2F9 /* pause_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0439920B1C4CB53F0013C2F9 /* pause_on.png */; };
+		043992191C4CB53F0013C2F9 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 0439920C1C4CB53F0013C2F9 /* pause.png */; };
+		0439921A1C4CB53F0013C2F9 /* play_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0439920D1C4CB53F0013C2F9 /* play_on.png */; };
+		0439921B1C4CB53F0013C2F9 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0439920E1C4CB53F0013C2F9 /* play.png */; };
+		0439921D1C4CC0490013C2F9 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0439921C1C4CC0490013C2F9 /* heart.wav */; };
+		0439921F1C4D15690013C2F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0439921E1C4D15690013C2F9 /* QuartzCore.framework */; };
+		D55633AA984E8F9236A83BCD /* libPods-PitchShift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC67C4FDE8CDF0F752EBD02 /* libPods-PitchShift.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043991E31C4CA9530013C2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043991C11C4CA9520013C2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043991C81C4CA9520013C2F9;
+			remoteInfo = PitchShift;
+		};
+		043991EE1C4CA9530013C2F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043991C11C4CA9520013C2F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043991C81C4CA9520013C2F9;
+			remoteInfo = PitchShift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043991C91C4CA9520013C2F9 /* PitchShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043991CD1C4CA9520013C2F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043991CF1C4CA9520013C2F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043991D01C4CA9520013C2F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043991D21C4CA9520013C2F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		043991D31C4CA9520013C2F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		043991D61C4CA9520013C2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043991D81C4CA9530013C2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043991DB1C4CA9530013C2F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043991DD1C4CA9530013C2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043991E21C4CA9530013C2F9 /* PitchShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043991E61C4CA9530013C2F9 /* PitchShiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PitchShiftTests.m; sourceTree = "<group>"; };
+		043991E81C4CA9530013C2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043991ED1C4CA9530013C2F9 /* PitchShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchShiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043991F11C4CA9530013C2F9 /* PitchShiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PitchShiftUITests.m; sourceTree = "<group>"; };
+		043991F31C4CA9530013C2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043992021C4CB53F0013C2F9 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg1.png; path = Resource/bg1.png; sourceTree = "<group>"; };
+		043992031C4CB53F0013C2F9 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg2.png; path = Resource/bg2.png; sourceTree = "<group>"; };
+		043992041C4CB53F0013C2F9 /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg3.png; path = Resource/bg3.png; sourceTree = "<group>"; };
+		043992051C4CB53F0013C2F9 /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg4.png; path = Resource/bg4.png; sourceTree = "<group>"; };
+		043992061C4CB53F0013C2F9 /* bg5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg5.png; path = Resource/bg5.png; sourceTree = "<group>"; };
+		043992071C4CB53F0013C2F9 /* bg6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg6.png; path = Resource/bg6.png; sourceTree = "<group>"; };
+		043992081C4CB53F0013C2F9 /* bg7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg7.png; path = Resource/bg7.png; sourceTree = "<group>"; };
+		043992091C4CB53F0013C2F9 /* bg8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg8.png; path = Resource/bg8.png; sourceTree = "<group>"; };
+		0439920A1C4CB53F0013C2F9 /* bg9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg9.png; path = Resource/bg9.png; sourceTree = "<group>"; };
+		0439920B1C4CB53F0013C2F9 /* pause_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause_on.png; path = Resource/pause_on.png; sourceTree = "<group>"; };
+		0439920C1C4CB53F0013C2F9 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Resource/pause.png; sourceTree = "<group>"; };
+		0439920D1C4CB53F0013C2F9 /* play_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_on.png; path = Resource/play_on.png; sourceTree = "<group>"; };
+		0439920E1C4CB53F0013C2F9 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = Resource/play.png; sourceTree = "<group>"; };
+		0439921C1C4CC0490013C2F9 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = heart.wav; path = Resource/heart.wav; sourceTree = "<group>"; };
+		0439921E1C4D15690013C2F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4AC67C4FDE8CDF0F752EBD02 /* libPods-PitchShift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PitchShift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BF784FF4926BC957989E65 /* Pods-PitchShift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchShift.release.xcconfig"; path = "Pods/Target Support Files/Pods-PitchShift/Pods-PitchShift.release.xcconfig"; sourceTree = "<group>"; };
+		C1D7372C96DD46DC5E782707 /* Pods-PitchShift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PitchShift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PitchShift/Pods-PitchShift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043991C61C4CA9520013C2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0439921F1C4D15690013C2F9 /* QuartzCore.framework in Frameworks */,
+				D55633AA984E8F9236A83BCD /* libPods-PitchShift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043991DF1C4CA9530013C2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043991EA1C4CA9530013C2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043991C01C4CA9520013C2F9 = {
+			isa = PBXGroup;
+			children = (
+				043991CB1C4CA9520013C2F9 /* PitchShift */,
+				043991E51C4CA9530013C2F9 /* PitchShiftTests */,
+				043991F01C4CA9530013C2F9 /* PitchShiftUITests */,
+				043991CA1C4CA9520013C2F9 /* Products */,
+				3E928AC7AFD295359AB9E102 /* Pods */,
+				3DFDAAA03F6AEE5103B17ECD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043991CA1C4CA9520013C2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043991C91C4CA9520013C2F9 /* PitchShift.app */,
+				043991E21C4CA9530013C2F9 /* PitchShiftTests.xctest */,
+				043991ED1C4CA9530013C2F9 /* PitchShiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043991CB1C4CA9520013C2F9 /* PitchShift */ = {
+			isa = PBXGroup;
+			children = (
+				043992011C4CB5130013C2F9 /* Resources */,
+				043992001C4CB4990013C2F9 /* Classes */,
+				043991CC1C4CA9520013C2F9 /* Supporting Files */,
+			);
+			path = PitchShift;
+			sourceTree = "<group>";
+		};
+		043991CC1C4CA9520013C2F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043991CD1C4CA9520013C2F9 /* main.m */,
+				043991CF1C4CA9520013C2F9 /* AppDelegate.h */,
+				043991D01C4CA9520013C2F9 /* AppDelegate.m */,
+				043991D51C4CA9520013C2F9 /* Main.storyboard */,
+				043991D81C4CA9530013C2F9 /* Assets.xcassets */,
+				043991DA1C4CA9530013C2F9 /* LaunchScreen.storyboard */,
+				043991DD1C4CA9530013C2F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043991E51C4CA9530013C2F9 /* PitchShiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				043991E61C4CA9530013C2F9 /* PitchShiftTests.m */,
+				043991E81C4CA9530013C2F9 /* Info.plist */,
+			);
+			path = PitchShiftTests;
+			sourceTree = "<group>";
+		};
+		043991F01C4CA9530013C2F9 /* PitchShiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043991F11C4CA9530013C2F9 /* PitchShiftUITests.m */,
+				043991F31C4CA9530013C2F9 /* Info.plist */,
+			);
+			path = PitchShiftUITests;
+			sourceTree = "<group>";
+		};
+		043992001C4CB4990013C2F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				043991D21C4CA9520013C2F9 /* ViewController.h */,
+				043991D31C4CA9520013C2F9 /* ViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		043992011C4CB5130013C2F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0439921C1C4CC0490013C2F9 /* heart.wav */,
+				043992021C4CB53F0013C2F9 /* bg1.png */,
+				043992031C4CB53F0013C2F9 /* bg2.png */,
+				043992041C4CB53F0013C2F9 /* bg3.png */,
+				043992051C4CB53F0013C2F9 /* bg4.png */,
+				043992061C4CB53F0013C2F9 /* bg5.png */,
+				043992071C4CB53F0013C2F9 /* bg6.png */,
+				043992081C4CB53F0013C2F9 /* bg7.png */,
+				043992091C4CB53F0013C2F9 /* bg8.png */,
+				0439920A1C4CB53F0013C2F9 /* bg9.png */,
+				0439920B1C4CB53F0013C2F9 /* pause_on.png */,
+				0439920C1C4CB53F0013C2F9 /* pause.png */,
+				0439920D1C4CB53F0013C2F9 /* play_on.png */,
+				0439920E1C4CB53F0013C2F9 /* play.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3DFDAAA03F6AEE5103B17ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0439921E1C4D15690013C2F9 /* QuartzCore.framework */,
+				4AC67C4FDE8CDF0F752EBD02 /* libPods-PitchShift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E928AC7AFD295359AB9E102 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7372C96DD46DC5E782707 /* Pods-PitchShift.debug.xcconfig */,
+				B2BF784FF4926BC957989E65 /* Pods-PitchShift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043991C81C4CA9520013C2F9 /* PitchShift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043991F61C4CA9530013C2F9 /* Build configuration list for PBXNativeTarget "PitchShift" */;
+			buildPhases = (
+				86BD33821B0D4B2D7EA24E7E /* Check Pods Manifest.lock */,
+				043991C51C4CA9520013C2F9 /* Sources */,
+				043991C61C4CA9520013C2F9 /* Frameworks */,
+				043991C71C4CA9520013C2F9 /* Resources */,
+				8FBE5D08EBDC76F621EA766F /* Embed Pods Frameworks */,
+				3A08564CB4F86FA85E417F77 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PitchShift;
+			productName = PitchShift;
+			productReference = 043991C91C4CA9520013C2F9 /* PitchShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043991E11C4CA9530013C2F9 /* PitchShiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043991F91C4CA9530013C2F9 /* Build configuration list for PBXNativeTarget "PitchShiftTests" */;
+			buildPhases = (
+				043991DE1C4CA9530013C2F9 /* Sources */,
+				043991DF1C4CA9530013C2F9 /* Frameworks */,
+				043991E01C4CA9530013C2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043991E41C4CA9530013C2F9 /* PBXTargetDependency */,
+			);
+			name = PitchShiftTests;
+			productName = PitchShiftTests;
+			productReference = 043991E21C4CA9530013C2F9 /* PitchShiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043991EC1C4CA9530013C2F9 /* PitchShiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043991FC1C4CA9530013C2F9 /* Build configuration list for PBXNativeTarget "PitchShiftUITests" */;
+			buildPhases = (
+				043991E91C4CA9530013C2F9 /* Sources */,
+				043991EA1C4CA9530013C2F9 /* Frameworks */,
+				043991EB1C4CA9530013C2F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043991EF1C4CA9530013C2F9 /* PBXTargetDependency */,
+			);
+			name = PitchShiftUITests;
+			productName = PitchShiftUITests;
+			productReference = 043991ED1C4CA9530013C2F9 /* PitchShiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043991C11C4CA9520013C2F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					043991C81C4CA9520013C2F9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					043991E11C4CA9530013C2F9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 043991C81C4CA9520013C2F9;
+					};
+					043991EC1C4CA9530013C2F9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 043991C81C4CA9520013C2F9;
+					};
+				};
+			};
+			buildConfigurationList = 043991C41C4CA9520013C2F9 /* Build configuration list for PBXProject "PitchShift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043991C01C4CA9520013C2F9;
+			productRefGroup = 043991CA1C4CA9520013C2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043991C81C4CA9520013C2F9 /* PitchShift */,
+				043991E11C4CA9530013C2F9 /* PitchShiftTests */,
+				043991EC1C4CA9530013C2F9 /* PitchShiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043991C71C4CA9520013C2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043992171C4CB53F0013C2F9 /* bg9.png in Resources */,
+				0439921B1C4CB53F0013C2F9 /* play.png in Resources */,
+				043992141C4CB53F0013C2F9 /* bg6.png in Resources */,
+				043992181C4CB53F0013C2F9 /* pause_on.png in Resources */,
+				043992131C4CB53F0013C2F9 /* bg5.png in Resources */,
+				043992111C4CB53F0013C2F9 /* bg3.png in Resources */,
+				043992121C4CB53F0013C2F9 /* bg4.png in Resources */,
+				0439920F1C4CB53F0013C2F9 /* bg1.png in Resources */,
+				043991DC1C4CA9530013C2F9 /* LaunchScreen.storyboard in Resources */,
+				043991D91C4CA9530013C2F9 /* Assets.xcassets in Resources */,
+				043992161C4CB53F0013C2F9 /* bg8.png in Resources */,
+				043992191C4CB53F0013C2F9 /* pause.png in Resources */,
+				043992101C4CB53F0013C2F9 /* bg2.png in Resources */,
+				043992151C4CB53F0013C2F9 /* bg7.png in Resources */,
+				0439921D1C4CC0490013C2F9 /* heart.wav in Resources */,
+				0439921A1C4CB53F0013C2F9 /* play_on.png in Resources */,
+				043991D71C4CA9520013C2F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043991E01C4CA9530013C2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043991EB1C4CA9530013C2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A08564CB4F86FA85E417F77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PitchShift/Pods-PitchShift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BD33821B0D4B2D7EA24E7E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FBE5D08EBDC76F621EA766F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PitchShift/Pods-PitchShift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043991C51C4CA9520013C2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043991D41C4CA9520013C2F9 /* ViewController.m in Sources */,
+				043991D11C4CA9520013C2F9 /* AppDelegate.m in Sources */,
+				043991CE1C4CA9520013C2F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043991DE1C4CA9530013C2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043991E71C4CA9530013C2F9 /* PitchShiftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043991E91C4CA9530013C2F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043991F21C4CA9530013C2F9 /* PitchShiftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043991E41C4CA9530013C2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043991C81C4CA9520013C2F9 /* PitchShift */;
+			targetProxy = 043991E31C4CA9530013C2F9 /* PBXContainerItemProxy */;
+		};
+		043991EF1C4CA9530013C2F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043991C81C4CA9520013C2F9 /* PitchShift */;
+			targetProxy = 043991EE1C4CA9530013C2F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043991D51C4CA9520013C2F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043991D61C4CA9520013C2F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043991DA1C4CA9530013C2F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043991DB1C4CA9530013C2F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043991F41C4CA9530013C2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043991F51C4CA9530013C2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043991F71C4CA9530013C2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D7372C96DD46DC5E782707 /* Pods-PitchShift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PitchShift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.musicplayer.PitchShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		043991F81C4CA9530013C2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BF784FF4926BC957989E65 /* Pods-PitchShift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PitchShift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.musicplayer.PitchShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		043991FA1C4CA9530013C2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PitchShiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.musicplayer.PitchShiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchShift.app/PitchShift";
+			};
+			name = Debug;
+		};
+		043991FB1C4CA9530013C2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PitchShiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.musicplayer.PitchShiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchShift.app/PitchShift";
+			};
+			name = Release;
+		};
+		043991FD1C4CA9530013C2F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PitchShiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.musicplayer.PitchShiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PitchShift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		043991FE1C4CA9530013C2F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PitchShiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.develop.musicplayer.PitchShiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PitchShift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043991C41C4CA9520013C2F9 /* Build configuration list for PBXProject "PitchShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043991F41C4CA9530013C2F9 /* Debug */,
+				043991F51C4CA9530013C2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043991F61C4CA9530013C2F9 /* Build configuration list for PBXNativeTarget "PitchShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043991F71C4CA9530013C2F9 /* Debug */,
+				043991F81C4CA9530013C2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043991F91C4CA9530013C2F9 /* Build configuration list for PBXNativeTarget "PitchShiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043991FA1C4CA9530013C2F9 /* Debug */,
+				043991FB1C4CA9530013C2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043991FC1C4CA9530013C2F9 /* Build configuration list for PBXNativeTarget "PitchShiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043991FD1C4CA9530013C2F9 /* Debug */,
+				043991FE1C4CA9530013C2F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043991C11C4CA9520013C2F9 /* Project object */;
+}
